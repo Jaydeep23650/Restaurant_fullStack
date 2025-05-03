@@ -24,7 +24,7 @@ const Reservation = () => {
 
     try {
       const { data } = await axios.post(
-        "http://localhost:5000/api/v1/reservation/send", // ✅ Correct backend URL
+        "https://restaurant-fullstack-backend.onrender.com/api/v1/reservation/send", // ✅ Correct backend URL
         { firstName, lastName, email, phone, date, time },
         {
           headers: {

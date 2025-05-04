@@ -11,7 +11,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: ['http://localhost:5173'],
+    origin: ['https://restaurant-fullstack-vxku.onrender.com'],
     methods: ['POST'],
     credentials: true,
 }));
